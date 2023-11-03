@@ -1,0 +1,38 @@
+#include <math.h>
+#include <stdio.h>
+
+int isArmstrong(int number) {
+  int originalNumber, remainder, n = 0, result = 0;
+  originalNumber = number;
+
+  // Calculate the number of digits in the number
+  while (originalNumber != 0) {
+    originalNumber /= 10;
+    n++;
+  }
+
+  originalNumber = number;
+
+  // Check if it is an armstrong number
+  while (originalNumber != 0) {
+    remainder = originalNumber % 10;
+    result += pow(remainder, n);
+    originalNumber /= 10;
+  }
+
+  return result == number;
+}
+
+int main() {
+  int n;
+
+  printf("Please input an integer: ");
+  scanf("%d", &n);
+  printf("Armstrong numbers from 1 to %d are:\n", n);
+  for (int i = 1; i <= n; i++) {
+    if (isArmstrong(i)) {
+      printf("%d\n", i);
+    }
+  }
+  return 0;
+}
