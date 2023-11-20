@@ -1,4 +1,6 @@
 ./bin
+./functions/bin
+./Arrays/bin
 
 # Prerequisites
 *.d
