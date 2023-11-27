@@ -1,3 +1,4 @@
+// Write a program in C to add two matrices.
 #include <stdio.h>
 
 // Function to accept input of values for matrix

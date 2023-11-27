@@ -1,3 +1,4 @@
+// Write a program in C to transpose a given matrix
 #include <stdio.h>
 
 // Function to accept input of values for a matrix

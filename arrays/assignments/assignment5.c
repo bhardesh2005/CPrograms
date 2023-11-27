@@ -1,3 +1,5 @@
+// Write a program in C to find an element in an array and print an error
+// message if the element is not found in the array
 #include <stdio.h>
 
 int main() {

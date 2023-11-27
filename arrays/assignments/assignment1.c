@@ -1,3 +1,4 @@
+// Write a program in C that calculates the sum of all elements in the array.
 #include <stdio.h>
 
 int main() {

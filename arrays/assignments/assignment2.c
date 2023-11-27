@@ -1,3 +1,4 @@
+// Write a program to find the greatest and the smallest numbers in the array.
 #include <stdio.h>
 
 int main() {

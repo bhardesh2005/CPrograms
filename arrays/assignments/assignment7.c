@@ -1,3 +1,4 @@
+// Write a program in C to multiply two different matrices.
 #include <stdio.h>
 
 // Function to accept input of values for matrix

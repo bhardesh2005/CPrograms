@@ -1,3 +1,4 @@
+// Write a program in C to find the max element in a matrix
 #include <stdio.h>
 
 // Function to find the maximum element in a matrix
